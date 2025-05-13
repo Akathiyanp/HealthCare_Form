@@ -1,0 +1,17 @@
+
+// Installation instructions for missing dependencies
+
+// 1. Install Clerk (for authentication)
+npm install @clerk/nextjs
+
+// 2. Install Prisma (for database operations)
+npm install -D prisma
+npm install @prisma/client
+
+// 3. Initialize Prisma
+npx prisma init
+
+
+// 4. Install shadcn/ui
+npm install shadcn-ui
+
